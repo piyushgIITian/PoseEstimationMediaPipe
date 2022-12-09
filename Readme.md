@@ -1,8 +1,10 @@
 ## Instructions to start the programe
 
-git clone https://github.com/
+git clone https://github.com/piyushgIITian/PoseEstimationMediaPipe
 
 cd rootally
+
+download test video from https://drive.google.com/file/d/1QM8UFQciXxJll5SZaTAhdqO4mg6tzM8r/view?usp=sharing
 
 activate your virtual env or install in the base directory
 
