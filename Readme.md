@@ -4,8 +4,6 @@ git clone https://github.com/piyushgIITian/PoseEstimationMediaPipe
 
 cd rootally
 
-download test video from https://drive.google.com/file/d/1QM8UFQciXxJll5SZaTAhdqO4mg6tzM8r/view?usp=sharing
-
 activate your virtual env or install in the base directory
 
 run: pip install -r requirements.txt
@@ -27,3 +25,7 @@ Exercise description -
 - After a successful rep, the person has to stretch his/her leg straight.
 - No restriction for back angle
 - Consider leg closer to camera as exercised leg 
+
+
+Results
+https://drive.google.com/file/d/1cPm2-mD3QUI7SjQthsDbAMl3tb_T3FYH/view?usp=share_link
