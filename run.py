@@ -29,7 +29,7 @@ cap = cv2.VideoCapture('test_video.mp4')
 fourcc = cv2.VideoWriter_fourcc(*'DIVX')
 width= int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height= int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-# out = cv2.VideoWriter('output.mp4', fourcc, 20.0, (width, height))
+out = cv2.VideoWriter('output.mp4', fourcc, 20.0, (width, height))
 ################################
 ## Variables
 ################################
@@ -103,7 +103,7 @@ while True:
             pTime = cTime
             cv2.putText(img, "FPS:"+str(round(fps)), (10,600), cv2.FONT_HERSHEY_SIMPLEX,1,(255,255,0), 3)
             cv2.imshow("Image", img)
-            # out.write(img)
+            out.write(img)
             k = cv2.waitKey(1)
             if(k == ord('s')):
                 break
@@ -114,7 +114,7 @@ while True:
         fluctuations+=1
 ## releasing videoCapture
 cap.release()
-# out.release() 
+out.release() 
 cv2.destroyAllWindows()
 
 print("######### performance of the user ################")
