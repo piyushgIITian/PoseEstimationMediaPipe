@@ -1,0 +1,5 @@
+######### performance of the user ################
+maximum the knee can bend in degrees 0.01142791945048316
+no. of reps  done 15
+maximum time the knee was bend 35.789438009262085
+no. of fluctuations done 2
